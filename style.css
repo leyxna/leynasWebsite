@@ -1,0 +1,106 @@
+/* STYLE SECTIONING TAGS */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+ background-color: #171716; 
+}
+h1 {
+  
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+p {
+  
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 17px;
+  text-align: left
+
+}
+
+/* STYLE TEXT */
+h3 {
+  font-family: 'Lucida Console', monospace;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 140%
+
+
+}
+.yellow {
+  color: #FFEC8A;
+  text-shadow: 1px 1px #e6c51e
+  
+}
+#pink {
+ 
+  color:#FF8AB6;
+  text-shadow: 1px 1px #bb255f
+}
+
+/* STYLE IMAGES */
+#banquet {
+
+  max-height: 400px;
+  max-width: 300px;
+  border-radius: 12px;
+ margin-top: 1em;
+  margin-bottom: 1em;
+
+  /*border: 4px solid #FF8AB6;*/
+}
+/*
+class is for multiple times (across multiple elements), whereas an id is just for one thing only
+video {
+  border-radius: 10px;
+  border: 4px solid #FF8AB6;
+}*/
+
+video {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+header {
+  text-align: center;
+}
+main {
+  text-align: center;
+  margin-left: 20%;
+  margin-right:20%;
+}
+
+/* STYLE NAV BAR */
+ul {
+  text-align: center;
+  list-style-type: none;
+  background-color: #313130;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+  padding: 1em;
+
+}
+
+li a {
+
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  padding: 1em;
+}
+
+li a:hover {
+  border-radius: 5px;
+  background-color: #272726
+}
+
